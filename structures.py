@@ -38,4 +38,5 @@ print(mySet)
 numbers = {1,10,100}
 nnames = {"Ani", "Marta" , "Giorgi"}
 numbers_names = numbers.union(nnames)
+numbers.update(nnames)
 print(numbers_names)
