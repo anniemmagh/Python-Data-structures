@@ -9,8 +9,13 @@ name = mmylist[3]
 print(name)
 
 #changeable - List-ის თვისება
+# List allows Duplicates
 mmylist[1] = 1
 print(mmylist)
+print(mmylist[len(mmylist)-1]) # Get last data
+
+
+
 
 
 # print(mmylist)
