@@ -8,6 +8,10 @@ mmylist =[1,2,"Ani","Megi", True,False, 3.0]
 name = mmylist[3] 
 print(name)
 
+#changeable - List-ის თვისება
+mmylist[1] = 1
+print(mmylist)
+
 
 # print(mmylist)
 # print(len(mmylist)) 
