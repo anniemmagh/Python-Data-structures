@@ -1,7 +1,7 @@
-# List 
-# x = 1
-# myList = [1,2,3,4]
-# print(myList)
+# List -data structure
+x = 1
+myList = [1,2,3,4]
+print(myList)
 
 # allows differtent data types
 # mmylist =[1,2,"Ani","Megi", True,False, 3.0]
@@ -21,6 +21,11 @@
 
 # add datas in the list
 newList =[1,2,"Ani","Megi", True,False, 3.0, 10,1000,"Maghlakvelidze", "Georgia"]
-newList.append("Tbilisi")
-newList.pop(5) 
+newList.append("Tbilisi") # add item
+newList.pop(5)  # delete item
+newList.remove("Georgia") # Remove item
 print(newList)
+
+# set - data structure
+mySet = {1,2,"Ani","asus",1} # duplicates gonna delete
+print(mySet)
