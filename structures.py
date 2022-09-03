@@ -5,4 +5,9 @@ print(myList)
 
 # allows differtent data types
 mmylist =[1,2,"Ani","Megi", True,False, 3.0]
-print(mmylist)
+name = mmylist[3] 
+print(name)
+
+
+# print(mmylist)
+# print(len(mmylist)) 
