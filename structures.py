@@ -12,7 +12,9 @@ print(name)
 # List allows Duplicates
 mmylist[1] = 1
 print(mmylist)
-print(mmylist[len(mmylist)-1]) # Get last data
+n = len(mmylist)
+print(mmylist[n-1]) # Get last data
+# print(mmylist[len(mmylist)-1]) # Get last data
 
 
 
