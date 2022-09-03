@@ -20,12 +20,18 @@ print(myList)
 # print(len(mmylist)) 
 
 # add datas in the list
-newList =[1,2,"Ani","Megi", True,False, 3.0, 10,1000,"Maghlakvelidze", "Georgia"]
-newList.append("Tbilisi") # add item
-newList.pop(5)  # delete item
-newList.remove("Georgia") # Remove item
-print(newList)
+# newList =[1,2,"Ani","Megi", True,False, 3.0, 10,1000,"Maghlakvelidze", "Georgia"]
+# newList.append("Tbilisi") # add item
+# newList.pop(5)  # delete item
+# newList.remove("Georgia") # Remove item
+# print(newList)
 
 # set - data structure
 mySet = {1,2,"Ani","asus",1} # duplicates gonna delete
+# names = ["Marta" , "Giorgi" ,"Ani", "Marta"]
+# names_set = set(names)
+# print(names_set)
+mySet.add(120)
+mySet.remove("Ani")
+
 print(mySet)
