@@ -22,4 +22,5 @@
 # add datas in the list
 newList =[1,2,"Ani","Megi", True,False, 3.0, 10,1000,"Maghlakvelidze", "Georgia"]
 newList.append("Tbilisi")
+newList.pop(5) 
 print(newList)
