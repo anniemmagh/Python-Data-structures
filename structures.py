@@ -35,3 +35,7 @@ mySet.add(120)
 mySet.remove("Ani")
 
 print(mySet)
+numbers = {1,10,100}
+nnames = {"Ani", "Marta" , "Giorgi"}
+numbers_names = numbers.union(nnames)
+print(numbers_names)
