@@ -63,13 +63,13 @@
 # tupleaddition = myTuple + newTuple
 # print(tupleaddition)
 
-myTuple = (1,2, "Test 1" , True,2,1)
-mylist = list(myTuple)
-mylist[2] = "matlab"
-mylist.append(10)
-newTuple = (12, "ES6","HTMl5")
-tupleaddition = myTuple + newTuple
-print(myTuple.index("Test 1")) # find element index in tuple
+# myTuple = (1,2, "Test 1" , True,2,1)
+# mylist = list(myTuple)
+# mylist[2] = "matlab"
+# mylist.append(10)
+# newTuple = (12, "ES6","HTMl5")
+# tupleaddition = myTuple + newTuple
+# print(myTuple.index("Test 1")) # find element index in tuple
 
 # Dictionary - data structure
 #ordered , changeable , doesnt allows duplicates
@@ -127,3 +127,6 @@ cars = {"Brand":"Ford" ,
  }
 cars["year"] = 2021
 print(cars)
+#########
+mylist = [[1,2,3,4,5 ], "text","cars"]
+print(mylist[0])
