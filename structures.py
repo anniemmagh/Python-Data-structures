@@ -45,6 +45,13 @@
 # tuple
 #allows different data types & duplicate 
 # ordered and unchangeable 
+# myTuple = (1,2, "Test 1" , True,2,1)
+# mylist = list(myTuple)
+
+# print(mylist) # change tuple as a list
 myTuple = (1,2, "Test 1" , True,2,1)
 mylist = list(myTuple)
-print(mylist) # change tuple as a list
+mylist[2] = "matlab"
+mylist.append(10)
+myTuple = tuple(mylist)
+print(myTuple)
