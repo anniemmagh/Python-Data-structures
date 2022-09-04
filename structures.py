@@ -115,9 +115,15 @@ print(myTuple.index("Test 1")) # find element index in tuple
 #  }
 # cars["color"] = ["red","black","white"]
 # print(cars) #add list to dict
+# cars = {"Brand":"Ford" , 
+#         "Model": " Mustang" ,
+#         "year" : 1964,
+#  }
+# cars.pop("year")
+# print(cars)
 cars = {"Brand":"Ford" , 
         "Model": " Mustang" ,
         "year" : 1964,
  }
-cars.pop("year")
+cars["year"] = 2021
 print(cars)
