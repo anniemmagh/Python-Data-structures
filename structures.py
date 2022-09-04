@@ -74,7 +74,14 @@ print(myTuple.index("Test 1")) # find element index in tuple
 # Dictionary - data structure
 #ordered , changeable , doesnt allows duplicates
 # key: value
+# cars = {"Brand":"Ford" , 
+#         "Model": " Mustang" ,
+#         "year" : 1964,
+#  }
+# print(type(cars)) 
 cars = {"Brand":"Ford" , 
-        "Model": " Mustang" 
+        "Model": " Mustang" ,
+        "year" : 1964,
  }
-print(cars)
+cars["Color"] = "Purple"
+print(cars) #add key to dictionary
