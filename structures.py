@@ -55,10 +55,18 @@
 # mylist.append(10)
 # myTuple = tuple(mylist) # list to tuple
 # print(myTuple)
+# myTuple = (1,2, "Test 1" , True,2,1)
+# mylist = list(myTuple)
+# mylist[2] = "matlab"
+# mylist.append(10)
+# newTuple = (12, "python" , "ES6","HTMl5")
+# tupleaddition = myTuple + newTuple
+# print(tupleaddition)
+
 myTuple = (1,2, "Test 1" , True,2,1)
 mylist = list(myTuple)
 mylist[2] = "matlab"
 mylist.append(10)
-newTuple = (12, "python" , "ES6","HTMl5")
+newTuple = (12, "ES6","HTMl5")
 tupleaddition = myTuple + newTuple
-print(tupleaddition)
+print(myTuple.index("Test 1")) # find element index in tuple
