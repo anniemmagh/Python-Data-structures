@@ -70,3 +70,11 @@ mylist.append(10)
 newTuple = (12, "ES6","HTMl5")
 tupleaddition = myTuple + newTuple
 print(myTuple.index("Test 1")) # find element index in tuple
+
+# Dictionary - data structure
+#ordered , changeable , doesnt allows duplicates
+# key: value
+cars = {"Brand":"Ford" , 
+        "Model": " Mustang" 
+ }
+print(cars)
