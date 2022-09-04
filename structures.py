@@ -46,5 +46,5 @@
 #allows different data types & duplicate 
 # ordered and unchangeable 
 myTuple = (1,2, "Test 1" , True,2,1)
-
-print(myTuple)
+mylist = list(myTuple)
+print(mylist) # change tuple as a list
