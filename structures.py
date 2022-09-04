@@ -85,9 +85,15 @@ print(myTuple.index("Test 1")) # find element index in tuple
 #  }
 # cars["Color"] = "Purple"
 # print(cars) #add key to dictionary
+# cars = {"Brand":"Ford" , 
+#         "Model": " Mustang" ,
+#         "year" : 1964,
+#  }
+# cars.update({"color": "purple"})
+# print(cars)
 cars = {"Brand":"Ford" , 
         "Model": " Mustang" ,
         "year" : 1964,
  }
 cars.update({"color": "purple"})
-print(cars)
+print(cars.get("Model"))
