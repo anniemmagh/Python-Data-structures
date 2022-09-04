@@ -109,9 +109,15 @@ print(myTuple.index("Test 1")) # find element index in tuple
 #  }
 # cars.update({"color": "purple"})
 # print(cars.values()) #print all values
+# cars = {"Brand":"Ford" , 
+#         "Model": " Mustang" ,
+#         "year" : 1964,
+#  }
+# cars["color"] = ["red","black","white"]
+# print(cars) #add list to dict
 cars = {"Brand":"Ford" , 
         "Model": " Mustang" ,
         "year" : 1964,
  }
-cars["color"] = ["red","black","white"]
+cars.pop("year")
 print(cars)
